@@ -1,5 +1,4 @@
-import * as React from "react";
-
+import "./global.css";
 // component exports
-export * from "./Button";
-export * from "./Header";
+export * from "./components";
+export * from "./Test";

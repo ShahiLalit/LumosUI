@@ -1,10 +1,12 @@
-import { Button, Header } from "ui";
+import { Button, Test } from "ui";
+import "./../global.css";
+import "ui/styles.css";
 
 export default function Page() {
   return (
     <>
-      <Header text="Docs" />
-      <Button />
+      <Button>Button</Button>
+      <Test />
     </>
   );
 }
